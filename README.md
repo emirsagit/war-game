@@ -1,5 +1,13 @@
 # A War Game (Card Game) Created By Pure JavaScript
 
+- The objective of the game is to win all of the cards.
+
+- Each player has 26 cards. The player with the higher card takes both of the cards played and moves them to their stack.
+
+- If the two cards played are of equal value, then there is a war. Both players place the next three cards. The player with the higher card takes both of the cards played and moves them to their stack. (According to the last cards) If the last cards are again equal then the battle repeats with another set of two more cards. This repeats until someone's last card is higher than their opponent's.
+
+- If a player runs out of cards during a war, the player immediately loses.
+
 ![screenshot](./app_screenshot.jpg)
 
 ## Built With
@@ -8,11 +16,11 @@
 
 ## Live
 
-<!-- [Snake Game ](https://emirsagit.github.io/snake-game/) -->
+[Snake Game ](https://emirsagit.github.io/war-game/)
 
 ## Getting Started
 
-To get a local copy up and running first you need to clone the repo. After that, open index.html with your browser.
+To get a local copy up and running first you need to clone the repo. After that, open index.html with your browser. It's a browser game. You can play it locally as soon as open index.html file.
 
 ## Authors
 
@@ -24,7 +32,7 @@ To get a local copy up and running first you need to clone the repo. After that,
 
 ## Thanks
 
-Inspired from [Scrimba](https://scrimba.com/) lesson. I personally recommend it to everyone who wants to be a front-end developer.
+Inspired from [Scrimba](https://scrimba.com/) lesson. I personally recommend it to everyone who wants to be a front-end developer. THe project used [Deckofcardsapi](https://deckofcardsapi.com/) API for getting random cards and images.
 
 ## 🤝 Contributing
 

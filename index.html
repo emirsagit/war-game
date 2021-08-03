@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/app.css" />
     <title>War Game</title>
   </head>
   <body>
     <div class="container">
-     
+      <button id="new-deck" class="btn btn-secondary">New Deck</button>
+      <div class="cards">
+        <p class="title">Computer remaining cards: <span id="computer-score"></span></p>
+        <div class="player" id="computer"></div>
+        <div class="title" id="message">Press New Deck!</div>
+        <div class="player" id="player"></div>
+        <p class="title title-player">Player Remaining Cards: <span id="player-score"></span></p>
+      </div>
+      <button id="draw-cards" class="btn btn-primary display-none">Draw Card</button>
     </div>
     <script src="./assets/js/app.js"></script>
   </body>
