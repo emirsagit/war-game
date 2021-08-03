@@ -1,0 +1,25 @@
+{
+  "name": "modal",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emirsagit/modal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emirsagit/modal/issues"
+  },
+  "homepage": "https://github.com/emirsagit/modal#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "dependencies": {}
+}
