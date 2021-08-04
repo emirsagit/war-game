@@ -8,7 +8,7 @@
 
 - If a player runs out of cards during a war, the player immediately loses.
 
-![screenshot](./app_screenshot.jpg)
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
