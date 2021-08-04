@@ -144,11 +144,11 @@ const displayScore = () => {
 };
 
 const play = () => {
-  displayScore();
   if (!checkFinish()) {
     assignCurrentCards();
     showCards();
     evaluateScore();
+    displayScore();
   }
 };
 
